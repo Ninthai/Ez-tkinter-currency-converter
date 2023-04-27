@@ -24,7 +24,3 @@ data = json.loads(response.text)
 converted_amount = data['result']['convertedAmount']
 
 formatted = "{:,.3f}".format(converted_amount)
-
-
-
-print(formatted)
